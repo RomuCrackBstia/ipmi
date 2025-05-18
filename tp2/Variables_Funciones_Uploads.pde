@@ -1,0 +1,16 @@
+String uno = "1. ¿Qué es Catan?\n Catan es un juego de mesa de origen alemán diseñado para 3 a 4 jugadores\ncada participante compite por expandir su territorio en un tablero y alcanzar 10 puntos de victoria.\nEs considerado un juego de duración media,con partidas que suelen durar entre 30 y 60 minutos. \nLa mecánica central gira en torno a la construcción de pueblos, ciudades y carreteras,\nasí como a la gestión de recursos y el comercio entre jugadores.";
+String dos = "2. Elementos del juego\nEl tablero de Catan\nse forma con 19 hexagonos,\ncada una representando\nun tipo de terreno que produce\nuna materia prima:\nmadera, ladrillo, piedra,trigo y oveja.\nA cada hexágono se le asigna\nun número entre el 2 y el 12\n(excepto el desierto), que determina\nque recurso se levanta.\nEn cada turno un jugador lanza dos dados;\nla suma del resultado indica\nqué terrenos producen.\nSi, por ejemplo\nhay un 6 en un hexágono de trigo\ny alguien lanza un 6\ntodos los jugadores con construcciones\nadyacentes a ese terreno reciben trigo.\nEn el mapa también hay puertos,\nubicados en algunas puntas del mapa\nque permiten intercambiar\nrecursos con el banco.";
+String tres = "3. Jugabilidad Cada jugador comienza\ncolocando 2 pueblos en el tablero,\njunto con una carretera\nCada jugador tiene 24 piezas:\n15 carreteras, 5 pueblos y 4 ciudades.\nLos pueblos valen 1 punto de victoria\ny pueden ser mejorados a ciudades,\nque valen 2 puntos\ny dan el doble de recursos\nLas carreteras permiten conectar\náreas para construir más pueblos,\nexiste una bonificación de 2 puntos\npara el camino mas largo.\nSi en algún turno se lanza un 7,\nse activa el “ladrón”, una ficha\nque normalmente está en el desierto.";
+String cuatro = "El jugador que sacó el 7\npuede mover al ladrón a cualquier\nlado, bloqueando la producción\nde ese terreno y robando una carta\na el jugador que tenga\nconstrucciones allí.\nLos jugadores pueden\ncomprar cartas de desarrollo.\nEstas cartas dan ventajas;\nconstruir dos caminos gratis,\nmover al ladrón,\npuntos de victoria adicionales etc...";
+int e;
+PImage icono;
+PImage imagenuno;
+PImage imagendos;
+PImage imagentres;
+PImage finalsi;
+PImage reiniciar;
+PFont funciona;
+int posXnombre = 0;
+int fade =0;
+float textoUnoY = -100;
+float textoX = -300;
